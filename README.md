@@ -1,6 +1,8 @@
 # bugRecord
-记录日常bug
+
 2021.05.28
+
+
 系统启动时，spring配置文件解析失败，报”cvc-elt.1: “找不到元素 'beans' 的声明”异常
 
 解决方案来源于（https://www.cnblogs.com/longshiyVip/p/4574070.html）
