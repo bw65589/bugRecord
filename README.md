@@ -3,7 +3,7 @@
 # 2021.05.28
 
 
-系统启动时，spring配置文件解析失败，报”cvc-elt.1: “找不到元素 'beans' 的声明”异常
+## 系统启动时，spring配置文件解析失败，报”cvc-elt.1: “找不到元素 'beans' 的声明”异常
 
 解决方案来源于（https://www.cnblogs.com/longshiyVip/p/4574070.html）
 
@@ -19,3 +19,9 @@
 
 第二,在dtd中缺少 xmlns="http://www.springframework.org/schema/beans"也会出现这个问题。
 解决方法:在spring配置文件中加入xmlns="http://www.springframework.org/schema/beans即可解决。
+
+# 2021.06.30
+## 在idea中无法输入中文(切换输入法没用且无关快捷键冲突的那种！！！)
+* Help --> Edit Custom VM options...
+* 添加 -Drecreate.x11.input.method=true 到最后一行
+* 重启IDEA
