@@ -25,3 +25,6 @@
 * Help --> Edit Custom VM options...
 * 添加 -Drecreate.x11.input.method=true 到最后一行
 * 重启IDEA
+
+# 2021.08.20  idea导入springboot项目后，所有文件显示灰色且左下角有个红色的时钟
+https://www.cxyzjd.com/article/Yinyaowei/106482671
